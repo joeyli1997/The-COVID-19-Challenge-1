@@ -1,0 +1,6 @@
+Data sources:
+- hospitalization.csv: https://covid19.healthdata.org/united-states-of-america
+- restaurant_clean.csv: https://www.opentable.com/state-of-industry
+- census_clean.csv: https://www.census.gov/quickfacts/fact/table/sanfranciscocitycalifornia,losangelescitycalifornia,newyorkcitynewyork/PST045219
+- transportation_clean.csv: https://citymapper.com/cmi/about
+- COVID_Github_Data_Extract.csv: https://public.tableau.com/profile/chantilly.jaggernauth#!/vizhome/CoronavirusCOVID-19CasesbyLocation/CoronavirusCOVID-19CasesbyLocation
