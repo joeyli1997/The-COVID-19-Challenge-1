@@ -1,55 +1,23 @@
-# The-COVID-19-Challenge: A Tale of Two States
+# The-COVID-19-Challenge: A Tale of Two-State
 
+California and New York, two of the most well-known states in the U.S., have many similarities from geographic to demographic, from economic to political. This time, both of them are at the forefront of the fight against the epidemic, and we believe that their efforts are comparable.
 
+Both states have a large population. California, with 40 million people, is ranked first and New York, with 20 million people, is ranked fourth. Both states have economic prosperity. California's GDP ranking first in the U.S., accounting for about 15% of the total, and New York State's GDP ranking third in the U.S., accounting for about 8% of the total. Furthermore, they are both democratic states with the highest concentration of millionaires.
 
+California could have been a catastrophe. It has some of the country’s first coronavirus cases and its extensive ties to China, with 150,000 people flew in from there in January. New York, too, has potential pitfalls, with New York City, probably the most mobile and densely populated city in the world.
 
+Looking back from mid-April, the two states differed significantly. New York has become the center of the epidemic, with confirmed cases and deaths exponentially increasing. California seems to be beating the odds, ranked 30th in the nation in coronavirus deaths per capita.
 
+What contributes to such a significant discrepancy? The response time and the intensity of the policy could be a major factor. At the beginning of March, when the two states had similar numbers of confirmed cases, Silicon Valley started to ask all of the employees to work from home, closely followed by the city of San Francisco and six Bay Area counties declared Shelter-in-place. In contrast, New York declared similar policies about 3-5 days later, with the number of confirmed cases was about 16 times compared to California. Indicated by the restaurant and transportation data, Californians were alerted and started practicing social distancing. Additionally, the practice was already commonplace in the state, spurred by the tech industry. However, New Yorkers were still hanging out and commuting, living a metropolitan life. Moreover, governors of the two states also play critical roles. One of the channels between society and governor is social media. After Natural Language Processing on governors’ twitter data since February, we found the New York State governor Andrew Cuomo is more influential than Gavin Newsom, the California governor. They both leverage the power of the social media during this epidemic and tweeted with ‘#covid19’, ‘#stayathome’, and ‘#stayhomesavelives’ to draw people’s attention of the disease as well as the importance of social distance. Cuomo gave more human care to New York state people with positive words. On the other hand, Newsom is more serious and objective about the situation. This maybe make California people more serious about the situation and strictly enforce the social distancing.
 
+California’s timely response has brought it time and flattened the curve. In contrast, there were intense burden in perspectives of hospitalization and testing in New York. It is indicated that there might be a shortage in beds and ICUs for New York, while California donated 500 ventilators to the state. Additionally, though New York has fired in full force for testing, the positive rate remained at a relatively high level. As a result, New York had 8.18 times confirmed cases and 14.06 times deaths. 
 
-
-
-
-
+Experience with wildfires and earthquakes. The California state government has built up extensive disaster-response machinery, and people are accustomed to obeying official orders in a crisis. California’s timely response has been proved to be the key to win the epidemic, while the humane care embodied in New York in the midst of the disaster has provided solid support for its people. We hope that all government could learn from this case and better serves its people.
 
 
 ![pic1](/A_Tale_of_Two_States.png)
 **[Tableau Dashboard URL](https://public.tableau.com/profile/yiying7787#!/vizhome/Book1_15852641796700/CAvsNY2?publish=yes)**
 
 
-
-### Overview
-
-Data is like a goldmine that can reveal valuable hidden information about various subjects, so as the criminal data. Crime statistics plays a key role in crime reduction. This set of data visualizations focuses on crime data of San Francisco from 2016 to 2018. The data set contains geographic information like coordinate and address of each crime, which category the crime case belongs to, what time the crime took place, and the resolutions of them. With all these data, we did crime analysis of San Francisco by region, time, and types as well as resolutions to provide insights for relations between crime and society. 
-
-
-### Target User
-The main audiences for this set of data visualizations are researchers, politicians, polices, government people, and criminal justice professionals who want to gain a deeper understanding of crime statistics of San Francisco. Specifically, for example, crime analysis by time can help SFPD to do the predictive policing. The crime analysis by region helps government people to do better budgeting and resource allocation. The data visualization implies where more resources are needed and where are safer and fewer resources are required.
-
-### Designing Process
-**Map:** Since our data set contains rich geographical data, maps are intensively used in our data visualizations. They allow information to be read more intuitively with colors, sizes and labels. For example, in Figure 1, at a first glance, the audiences can get an idea of which districts are the most dangerous. And for crime categories map, it not only reveals what are the most frequent crime types, but also their distributions. 
-
-**Bar chart & Line Chart:** In our visualizations, bar charts mainly serve the maps as a complement. With record numbers or percentages, they specify elements in the maps and give clear ranks of candidates as well as how they different with each other. We also considered using bar chart for crime analysis by date time, but chose line chart eventually, because data time is more continuous and denser than year, quarter, and weekday. For this kind of time series data, a line chart may be a better choice to reflect the trend.
-
-**Word Cloud:** By font size, our word cloud put emphasis on the most frequent crime type. It captures audiences’ attention very well. This is also what we want to aware the audience: LAURENCY/THEFT is the key and hard-to-resolve problem of San Francisco! 
-
-**Interactivity:** There are multiple interactive connections between plots. For example in figure 2, if we hover on one specific category in the word cloud, the corresponding information in the other plots will be highlighted so that the audience can know the distribution and number of that category. 
-
-**Messaging:** Navigation button, headlines and introductory text were included in the dashboards to convey the idea more clearly and help the audience understand the dashboards better.
-
-### Analysis
-According to Figure 1, in the bar chart, SOUTHERN has the greatest number of crime records. This may not only due to its relatively large area, but also a particular dangerous spot-800 BLOCK of BRYANT ST, which is the biggest circle in the map. This location contributes 9,202 cases to the total number in 3 years. From the map, another dangerous district is TENDERLOIN, which is shown in red. However, it does not rank very high in the bar chart, and this may due to its very small size. Under this situation, it still has a considerable large number of crime records. In other words, TENDERLOIN is one of the most dangerous police department districts in San Francisco.
-According to Figure 2, crime rate increases dramatically in Friday and Saturday, while in other weekdays, the number of crimes is under the average level. Within a day, 12 pm, and 6 pm are two peaks of crimes. This makes sense because they are the lunch and dinner time and people need foods. Incorporating this with Figure 3, in which LAURENCY/THEFT is the most frequent crime type, conclusion could be drawn that homeless people stealing foods contributes to the high crime rate in 12 pm and 6 pm.
-Crime analysis by categories is an evidence that LAURENCY/THEFT is a key problem of San Francisco. Map to the left of the word cloud also tell the audience this is a common issue across all districts rather than only in very dangerous locations. And for this type of crime, the resolution is also pervasive – NONE. Although crimes like this do not have very sever outcomes, SFPD should take more effective measures to address the problem to improve public security.
-
-
-### Conclustion
-In sum, Tableau is a great tool to explore data for individual users and a powerful business intelligence tool to incorporate multiple database, and design shared interactive dashboards across organization.
-
-### Citations
-Matthews, K. (2018, 10 27). How Much Does Crime Data Help Decrease Criminal Activity? Retrieved from CPO MAGAZINE: https://www.cpomagazine.com/data-privacy/how-much-does-crime-data-help-decrease-criminal-activity/
-Why National Crime Statistics Are Important. (n.d.). Retrieved from WALEDN UNIVERSITY: https://www.waldenu.edu/online-bachelors-programs/bs-in-criminal-justice/resource/why-national-crime-statistics-are-important
-CRIME ANALYSIS IN SAN FRANCISCO 2014 SUMMER, Jiazhen Zhu URL: 
-https://public.tableau.com/views/CRIMEANALYSISINSANFRANCISCO2014SUMMER/Dashboard1?:embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true
-
-
-
+### Datasets
+All datasets used by this project are uploaded to the 'Datasets' folder and the resources of data are stated in Readme file in that folder.
