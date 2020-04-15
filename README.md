@@ -16,7 +16,7 @@
 **[Tableau Dashboard URL](https://public.tableau.com/profile/yiying7787#!/vizhome/Book1_15852641796700/CAvsNY2?publish=yes)**
 
 - Figure 1: SF Crime Analysis by Region
-![pic1](/images/map.png)
+![pic1](/A_Tale_of_Two_Cities.png)
 
 
 ### Overview
